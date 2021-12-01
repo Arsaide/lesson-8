@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Lesson 8</title>
+</head>
+<body>
+    <header>
+        <h1>Lesson 8. Images. Font Awesome. Basic animation</h1>
+    </header>
+    <div class="main">
+        <div class="container">
+            <h1 class="text-title">Font Awesome + transition</h1>
+                <div class="font">
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Marvel</li>
+                        <li><span class="fa-li"><i class="fas fa-spinner fa-pulse"></i></span>DC</li>
+                        <li><span class="fa-li"><i class="far fa-square"></i></span>StarWars</li>
+                    </ul>
+              </div>
+              <p class="description">Наведись на синий блок и узри магию transition.</p>
+        </div>
+        <div class="container">
+            <h1 class="text-title">Transform</h1>
+            <div class="animation">
+                <div class="animblock"></div>
+                <div class="animblock"></div>
+                <div class="animblock"></div>
+            </div>
+            <p class="description">Transform & keyframes в действии.</p>
+        </div>
+        <h1 class="text-title">CSS Background</h1>
+        <div class="container">
+            <div class="background-img"></div>
+        <p class="description">Выставляем картинку через CSS свойство background.</p>
+        <h1 class="text-title">Images ( HTML Picture )</h1>
+        <div class="background-picture">
+            <picture>
+                <source srcset="../img/marvel.jpg" type="image/jpeg" media="(min-width: 1330px)">
+                <source srcset="../img/dc.jpg" type="image/jpeg" media="(min-width: 992px)">
+                <source srcset="../img/starwars.png" type="image/jpeg" media="(max-width: 992px)">
+                <img class="background-picture" src="../img/marvel.jpg">
+            </picture>
+        </div>
+        <p class="description">Использование тега picture для отображения нужной картинки на нужном разрешении.<br/>Открой эту страницу на разных девайсах и посмотри на результат.</p>
+        <div class="background-card">
+            <h1 class="text-title">Universes (HTML object-fit )</h1>
+            <div class="cards-row">
+                <div class="cards-column">
+                    <div class="cards-image">
+                        <img src="../img/starwars.png">
+                    </div>
+                    <div class="cards-text">
+                        <p>Здесь кроется картинка с разрешением 300*181</p>
+                    </div>
+                </div>
+                <div class="cards-column">
+                    <div class="cards-image">
+                        <img src="../img/dc.jpg">
+                    </div>
+                    <div class="cards-text">
+                        <p>Здесь кроется картинка с разрешением 750*350</p>
+                    </div>
+                </div>
+                <div class="cards-column">
+                    <div class="cards-image">
+                        <img src="../img/marvel.jpg">
+                    </div>
+                    <div class="cards-text">
+                        <p>Здесь кроется картинка с разрешением 1920*1035</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-card">
+            <div>
+                <h1 class="text-title">Universes in a row</h1>
+                <div class="cards-main">
+                    <div class="cards-column">
+                        <div class="cards-image-bottom">
+                            <img src="../img/marvel.jpg">
+                            <div class="cards-text-bottom">
+                                <h1>Marvel</h1>
+                                <p>Marvel was started in 1939 by Martin Goodman under a number of corporations and imprints but now known as Timely Comics, and by 1951 had generally become known as Atlas Comics. The Marvel era began in 1961, the year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had been used over the years, was solidified as the company's primary brand.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-column">
+                        <div class="cards-image-bottom">
+                            <img src="../img/dc.jpg">
+                            <div class="cards-text-bottom">
+                                <h1>DC</h1>
+                                <p>DC Comics is one of the largest and oldest American comic book companies, with their first comic under the DC banner being published in 1937.The majority of its publications take place within the fictional DC Universe and feature numerous culturally iconic heroic characters, such as Superman, Batman, and Wonder Woman.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-column">
+                        <div class="cards-image-bottom">
+                            <img src="../img/starwars.png">
+                            <div class="cards-text-bottom">
+                                <h1>StarWars</h1>
+                                <p>Star Wars was released on May 25, 1977, and first subtitled Episode IV: A New Hope in the 1979 book The Art of Star Wars.Episode V: The Empire Strikes Back was released on May 21, 1980, also achieving wide financial and critical success. The final film in the trilogy, Episode VI: Return of the Jedi was released on May 25, 1983.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
