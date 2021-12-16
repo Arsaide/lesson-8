@@ -30,13 +30,15 @@ header {
      padding-bottom: 10px;
      color: white;
      font-size: 18px;
+     transform-duration: 0.8s;
 }
 .text-title{
     padding-top: 25px;
 }
 li {
     padding: 10px;
-    font-size: 22px;
+    font-size: 22px; 
+    transform-duration: 0.8s;
 }
 .animation {
     height: 150px;
